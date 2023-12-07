@@ -1,0 +1,212 @@
+body {
+    background-color: #050F10;
+    color: #ffffff;
+    font-family: 'Inter';
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+header .navbar a {
+    display: inline;
+    float: left;
+    color: #E3ABA6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.hero p {
+    font-weight: 600;
+    margin: 0;
+}
+
+.hero img {
+    display: flex;
+    align-self: flex-end;
+}
+
+span {
+    color: #E3ABA6;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15rem;
+    margin-bottom: 100px;
+}
+
+.about a {
+    background-color: #E3ABA6;
+    color: #050F10;
+    height: 1rem;
+}
+
+button {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 13px 32px;
+    border-radius: 25px;
+}
+
+.cv {
+    background-color: #E3ABA6;
+    color: #050F10;
+}
+
+.skills h2 {
+    font-weight: 400px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    background: #ffffff;
+    width: 400px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-bar div {
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+    background: #E3ABA6;
+}
+
+.progress-bar div span {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #050F10;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #E3ABA6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #E3ABA6; */
+}
+
+.csharp {
+    animation: csharp 1s linear forwards;
+}
+
+.html {
+    animation: html 1s linear forwards;
+}
+
+.python {
+    animation: python 1s linear forwards;
+}
+
+.sql {
+    animation: sql 1s linear forwards;
+}
+
+.figma {
+    animation: figma 1s linear forwards;
+}
+
+.css {
+    animation: css 1s linear forwards;
+}
+
+@keyframes csharp {
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes html {
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes python {
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes sql {
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes figma {
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes css {
+    100% {
+        width: 80%;
+    }
+}
+
+.skills {
+    margin-left: 50px;
+}
+
+.skill-bar {
+    display: inline-block;
+
+}
+
+.hire-me {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #E3ABA6;
+    color: #050F10;
+    margin-top: 4rem;
+}
+
+.hire-me p{
+    margin-left: 125px;
+    margin-right: 400px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.hire-btn{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 13px 32px;
+    border-radius: 25px;
+    background-color: #050F10;
+    color: #E3ABA6;
+}
